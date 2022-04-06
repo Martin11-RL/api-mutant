@@ -1,4 +1,4 @@
-class MutantController < ApplicationController
+class Api::MutantController < ApplicationController
     
     def ismutant
         mutant = DnaService.new(mutant_params[:dna]).isMutant    

@@ -1,4 +1,4 @@
-class DnaSequencesController < ApplicationController
+class Api::DnaSequencesController < ApplicationController
   before_action :set_dna_sequence, only: %i[ show update destroy ]
 
   # GET /dna_sequences
